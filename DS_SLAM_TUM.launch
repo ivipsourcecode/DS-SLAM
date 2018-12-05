@@ -1,0 +1,11 @@
+<launch>  
+
+	<!-- orb slam  -->
+	<node pkg="ORB_SLAM2_PointMap_SegNetM" name="TUM" type="TUM" args="$(find ORB_SLAM2_PointMap_SegNetM)/../../../Vocabulary/ORBvoc.bin $(find ORB_SLAM2_PointMap_SegNetM)/TUM3.yaml PATH_TO_SEQUENCE PATH_TO_SEQUENCE/associate.txt $(find ORB_SLAM2_PointMap_SegNetM)/prototxts/segnet_pascal.prototxt $(find ORB_SLAM2_PointMap_SegNetM)/models/segnet_pascal.caffemodel $(find ORB_SLAM2_PointMap_SegNetM)/tools/pascal.png" output="screen" />
+
+	<!-- Run other launch file -->
+    <include file="$(find ORB_SLAM2_PointMap_SegNetM)/launch/Octomap.launch" />
+	<include file="$(find ORB_SLAM2_PointMap_SegNetM)/launch/transform.launch" />
+	<node pkg="rviz" name="rviz" type="rviz" /> 
+	
+</launch>
