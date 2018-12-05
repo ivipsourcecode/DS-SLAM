@@ -11,7 +11,7 @@ If you have any questions or use DS_SLAM for commercial purposes, please contact
 
 # 1. License
 
-DS-SLAM is released under a  [GPLv3 license](https://github.com/zoeyuchao/DS-SLAM/blob/master/LICENSE).
+DS-SLAM is released under a  [GPLv3 license](https://github.com/ivipsourcecode/DS-SLAM/blob/master/LICENSE).
 
 DS-SLAM allows personal and research use only. For a commercial license please contact: qiaofei@tsinghua.edu.cn
 
