@@ -2,7 +2,7 @@
 
 DS-SLAM is a complete robust semantic SLAM system, which could reduce the influence of dynamic objects on pose estimation, such as walking people and other moving robots. Meanwhile, DS-SLAM could also provide semantic presentation of the octo-tree map．DS-SLAM is a optimized SLAM system based on the famous ORB-SLAM2 (from https://github.com/raulmur/ORB_SLAM2 and https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map, thanks for Raul's, Gao Xiang's and SegNet's great work!). It not only includes tracking, local mapping, loop closing threads, but also contains semantic segmentation, dense mapping threads. Currently, the system is integrated with Robot Operating System (ROS). In this Open Source project, we provide one example to run DS_SLAM in the TUM dataset with RGB-D sensors. The example of real-time implementation of DS-SLAM and hardware/software configurations would be coming soon.
 
-As described in **DS-SLAM: A Semantic Visual SLAM towards Dynamic Environments **Chao Yu, Zuxin Liu, Xinjun Liu, Fugui Xie, Yi Yang, Qi Wei, Fei  Qiao, Published in the Proceedings of  the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018) 
+As described in **DS-SLAM: A Semantic Visual SLAM towards Dynamic Environments **Chao Yu, Zuxin Liu, Xinjun Liu, Fugui Xie, Yi Yang, Qi Wei, Fei  Qiao, Published in the Proceedings of  the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018). The code is opened by Dongjiang Li.
 
 Moreover, to download the pre-print version, you could be directed to [https://arxiv.org/abs/1809.08379v1].
 
